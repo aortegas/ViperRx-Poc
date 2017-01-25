@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		906B256B1E38963F00AAB074 /* RegisterFingerprintRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B256A1E38963F00AAB074 /* RegisterFingerprintRouter.swift */; };
+		906B256D1E38965D00AAB074 /* RegisterFingerprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B256C1E38965D00AAB074 /* RegisterFingerprintViewController.swift */; };
+		906B256F1E38967E00AAB074 /* RegisterFingerprintPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B256E1E38967E00AAB074 /* RegisterFingerprintPresenter.swift */; };
+		906B25711E38969300AAB074 /* RegisterFingerprintInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B25701E38969300AAB074 /* RegisterFingerprintInteractor.swift */; };
+		906B25731E3898DB00AAB074 /* RegisterFingerprint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906B25721E3898DB00AAB074 /* RegisterFingerprint.storyboard */; };
+		906B25761E38B79400AAB074 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B25751E38B79400AAB074 /* LoginService.swift */; };
+		90DE0CC21E36256900042E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0CC11E36256900042E7A /* AppDelegate.swift */; };
+		90DE0CCA1E36257E00042E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DE0CC31E36257E00042E7A /* Assets.xcassets */; };
+		90DE0CCB1E36257E00042E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DE0CC51E36257E00042E7A /* LaunchScreen.storyboard */; };
+		90DE0CCC1E36257E00042E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DE0CC71E36257E00042E7A /* Main.storyboard */; };
+		90DE0CF31E36274A00042E7A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0CF21E36274A00042E7A /* User.swift */; };
+		90DE0CF81E36299C00042E7A /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0CF71E36299C00042E7A /* RootWireframe.swift */; };
+		90DE0CFA1E3629E400042E7A /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0CF91E3629E400042E7A /* RootRouter.swift */; };
+		90DE0D061E362D4900042E7A /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0D051E362D4900042E7A /* LoginRouter.swift */; };
+		90DE0D081E362E1E00042E7A /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0D071E362E1E00042E7A /* DashboardRouter.swift */; };
+		90DE0D0F1E3630D700042E7A /* CustomRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0D0E1E3630D700042E7A /* CustomRouter.swift */; };
+		90DE0D111E3641B600042E7A /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0D101E3641B600042E7A /* LoginPresenter.swift */; };
+		90DE0D131E3641D500042E7A /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0D121E3641D500042E7A /* LoginInteractor.swift */; };
+		90DE0D161E3642ED00042E7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0D141E3642ED00042E7A /* LoginViewController.swift */; };
+		90DE0D1B1E3644CE00042E7A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DE0D1A1E3644CE00042E7A /* Login.storyboard */; };
+		90DE0D211E37518900042E7A /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE0D201E37518900042E7A /* LoginInteractorOutput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		906B256A1E38963F00AAB074 /* RegisterFingerprintRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterFingerprintRouter.swift; sourceTree = "<group>"; };
+		906B256C1E38965D00AAB074 /* RegisterFingerprintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterFingerprintViewController.swift; sourceTree = "<group>"; };
+		906B256E1E38967E00AAB074 /* RegisterFingerprintPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterFingerprintPresenter.swift; sourceTree = "<group>"; };
+		906B25701E38969300AAB074 /* RegisterFingerprintInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterFingerprintInteractor.swift; sourceTree = "<group>"; };
+		906B25721E3898DB00AAB074 /* RegisterFingerprint.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterFingerprint.storyboard; sourceTree = "<group>"; };
+		906B25751E38B79400AAB074 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		90DE0CAA1E36202A00042E7A /* ViperRx-Poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ViperRx-Poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DE0CC11E36256900042E7A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90DE0CC31E36257E00042E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90DE0CC61E36257E00042E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90DE0CC81E36257E00042E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		90DE0CC91E36257E00042E7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DE0CF21E36274A00042E7A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		90DE0CF71E36299C00042E7A /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		90DE0CF91E3629E400042E7A /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		90DE0D051E362D4900042E7A /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		90DE0D071E362E1E00042E7A /* DashboardRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardRouter.swift; sourceTree = "<group>"; };
+		90DE0D0E1E3630D700042E7A /* CustomRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRouter.swift; sourceTree = "<group>"; };
+		90DE0D101E3641B600042E7A /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		90DE0D121E3641D500042E7A /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		90DE0D141E3642ED00042E7A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		90DE0D1A1E3644CE00042E7A /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		90DE0D201E37518900042E7A /* LoginInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractorOutput.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90DE0CA71E36202A00042E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		906B25651E38945400AAB074 /* RegisterFingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				906B25661E38945400AAB074 /* Interactor */,
+				906B25671E38945400AAB074 /* Presenter */,
+				906B25681E38945400AAB074 /* Router */,
+				906B25691E38945400AAB074 /* View */,
+			);
+			path = RegisterFingerprint;
+			sourceTree = "<group>";
+		};
+		906B25661E38945400AAB074 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				906B25701E38969300AAB074 /* RegisterFingerprintInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		906B25671E38945400AAB074 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				906B256E1E38967E00AAB074 /* RegisterFingerprintPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		906B25681E38945400AAB074 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				906B256A1E38963F00AAB074 /* RegisterFingerprintRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		906B25691E38945400AAB074 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				906B256C1E38965D00AAB074 /* RegisterFingerprintViewController.swift */,
+				906B25721E3898DB00AAB074 /* RegisterFingerprint.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		906B25741E38B78200AAB074 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				906B25751E38B79400AAB074 /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		90DE0CA11E36202A00042E7A = {
+			isa = PBXGroup;
+			children = (
+				90DE0CAC1E36202A00042E7A /* ViperRx-Poc */,
+				90DE0CAB1E36202A00042E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90DE0CAB1E36202A00042E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0CAA1E36202A00042E7A /* ViperRx-Poc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90DE0CAC1E36202A00042E7A /* ViperRx-Poc */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D0D1E3630B000042E7A /* Protocols */,
+				90DE0CCE1E36259F00042E7A /* Models */,
+				90DE0CCF1E36259F00042E7A /* Modules */,
+				90DE0CBF1E3624C000042E7A /* Application */,
+				90DE0CC01E3624CB00042E7A /* Resources */,
+			);
+			path = "ViperRx-Poc";
+			sourceTree = "<group>";
+		};
+		90DE0CBF1E3624C000042E7A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0CC11E36256900042E7A /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		90DE0CC01E3624CB00042E7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0CC31E36257E00042E7A /* Assets.xcassets */,
+				90DE0CC41E36257E00042E7A /* Base.lproj */,
+				90DE0CC91E36257E00042E7A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90DE0CC41E36257E00042E7A /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0CC51E36257E00042E7A /* LaunchScreen.storyboard */,
+				90DE0CC71E36257E00042E7A /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		90DE0CCE1E36259F00042E7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0CF21E36274A00042E7A /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90DE0CCF1E36259F00042E7A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				906B25651E38945400AAB074 /* RegisterFingerprint */,
+				90DE0CF41E3628AA00042E7A /* Dashboard */,
+				90DE0CF51E3628AA00042E7A /* Login */,
+				90DE0CF61E3628AA00042E7A /* Root */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		90DE0CF41E3628AA00042E7A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D001E362ADF00042E7A /* Contract */,
+				90DE0D011E362ADF00042E7A /* Interactor */,
+				90DE0D021E362ADF00042E7A /* Presenter */,
+				90DE0D031E362ADF00042E7A /* Router */,
+				90DE0D041E362ADF00042E7A /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		90DE0CF51E3628AA00042E7A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				906B25741E38B78200AAB074 /* Services */,
+				90DE0CFC1E362AD700042E7A /* Interactor */,
+				90DE0CFD1E362AD700042E7A /* Presenter */,
+				90DE0CFE1E362AD700042E7A /* Router */,
+				90DE0CFF1E362AD700042E7A /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		90DE0CF61E3628AA00042E7A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0CF71E36299C00042E7A /* RootWireframe.swift */,
+				90DE0CF91E3629E400042E7A /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		90DE0CFC1E362AD700042E7A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D201E37518900042E7A /* LoginInteractorOutput.swift */,
+				90DE0D121E3641D500042E7A /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		90DE0CFD1E362AD700042E7A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D101E3641B600042E7A /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		90DE0CFE1E362AD700042E7A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D051E362D4900042E7A /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		90DE0CFF1E362AD700042E7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D141E3642ED00042E7A /* LoginViewController.swift */,
+				90DE0D1A1E3644CE00042E7A /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90DE0D001E362ADF00042E7A /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		90DE0D011E362ADF00042E7A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		90DE0D021E362ADF00042E7A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		90DE0D031E362ADF00042E7A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D071E362E1E00042E7A /* DashboardRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		90DE0D041E362ADF00042E7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90DE0D0D1E3630B000042E7A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				90DE0D0E1E3630D700042E7A /* CustomRouter.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90DE0CA91E36202A00042E7A /* ViperRx-Poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DE0CBC1E36202B00042E7A /* Build configuration list for PBXNativeTarget "ViperRx-Poc" */;
+			buildPhases = (
+				90DE0CA61E36202A00042E7A /* Sources */,
+				90DE0CA71E36202A00042E7A /* Frameworks */,
+				90DE0CA81E36202A00042E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViperRx-Poc";
+			productName = "ViperRx-Poc";
+			productReference = 90DE0CAA1E36202A00042E7A /* ViperRx-Poc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90DE0CA21E36202A00042E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Iñaki Vitoria";
+				TargetAttributes = {
+					90DE0CA91E36202A00042E7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BGW9VR4YW6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90DE0CA51E36202A00042E7A /* Build configuration list for PBXProject "ViperRx-Poc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90DE0CA11E36202A00042E7A;
+			productRefGroup = 90DE0CAB1E36202A00042E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90DE0CA91E36202A00042E7A /* ViperRx-Poc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90DE0CA81E36202A00042E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DE0CCA1E36257E00042E7A /* Assets.xcassets in Resources */,
+				906B25731E3898DB00AAB074 /* RegisterFingerprint.storyboard in Resources */,
+				90DE0CCC1E36257E00042E7A /* Main.storyboard in Resources */,
+				90DE0D1B1E3644CE00042E7A /* Login.storyboard in Resources */,
+				90DE0CCB1E36257E00042E7A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90DE0CA61E36202A00042E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DE0D111E3641B600042E7A /* LoginPresenter.swift in Sources */,
+				906B25711E38969300AAB074 /* RegisterFingerprintInteractor.swift in Sources */,
+				90DE0D0F1E3630D700042E7A /* CustomRouter.swift in Sources */,
+				90DE0CF81E36299C00042E7A /* RootWireframe.swift in Sources */,
+				90DE0D081E362E1E00042E7A /* DashboardRouter.swift in Sources */,
+				906B256B1E38963F00AAB074 /* RegisterFingerprintRouter.swift in Sources */,
+				90DE0CFA1E3629E400042E7A /* RootRouter.swift in Sources */,
+				906B25761E38B79400AAB074 /* LoginService.swift in Sources */,
+				90DE0D061E362D4900042E7A /* LoginRouter.swift in Sources */,
+				90DE0D211E37518900042E7A /* LoginInteractorOutput.swift in Sources */,
+				90DE0CF31E36274A00042E7A /* User.swift in Sources */,
+				90DE0CC21E36256900042E7A /* AppDelegate.swift in Sources */,
+				906B256F1E38967E00AAB074 /* RegisterFingerprintPresenter.swift in Sources */,
+				90DE0D161E3642ED00042E7A /* LoginViewController.swift in Sources */,
+				90DE0D131E3641D500042E7A /* LoginInteractor.swift in Sources */,
+				906B256D1E38965D00AAB074 /* RegisterFingerprintViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90DE0CC51E36257E00042E7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DE0CC61E36257E00042E7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90DE0CC71E36257E00042E7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DE0CC81E36257E00042E7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90DE0CBA1E36202B00042E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90DE0CBB1E36202B00042E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90DE0CBD1E36202B00042E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGW9VR4YW6;
+				INFOPLIST_FILE = "$(SRCROOT)/ViperRx-Poc/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliv.ViperRx-Poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90DE0CBE1E36202B00042E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGW9VR4YW6;
+				INFOPLIST_FILE = "$(SRCROOT)/ViperRx-Poc/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliv.ViperRx-Poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90DE0CA51E36202A00042E7A /* Build configuration list for PBXProject "ViperRx-Poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DE0CBA1E36202B00042E7A /* Debug */,
+				90DE0CBB1E36202B00042E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DE0CBC1E36202B00042E7A /* Build configuration list for PBXNativeTarget "ViperRx-Poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DE0CBD1E36202B00042E7A /* Debug */,
+				90DE0CBE1E36202B00042E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90DE0CA21E36202A00042E7A /* Project object */;
+}
